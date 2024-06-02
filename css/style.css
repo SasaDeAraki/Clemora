@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: red;
+}
+
+header {
+    height: 70px;
+}
+
+.caixa-icone {
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 113px;
+    height: 156px;
+}
+
+.icone {
+    width: 113px;
+    height: 113px;
+    border-radius: 15px;
+}
