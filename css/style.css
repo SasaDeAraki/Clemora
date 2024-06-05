@@ -136,14 +136,27 @@ footer {
     color: #14193e;
 }
 
-/* grafico*/
+.tabela-detritos {
+    margin-left: 10px;
+    height: 360px;
+}
 
-.p-grafico {
+.tabela-detritos, .tabela-detritos th, .tabela-detritos td {
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(160 160 160);
+    width: 3000px;
+}
+
+.p-dividido {  
     margin: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+/* grafico*/
 
 .grafico {
     max-width: 300px;
