@@ -171,18 +171,14 @@ footer {
 
 /* lista solucao.html */
 
-.container-botao-mostrar-texto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #mostrar-texto {
     height: 22px;
     width: 22px;
     display: inline;
-    border: 1px solid #323968;
+    border: none;
     border-radius: 3px;
+    color: white;
+    background-color: #323968;
 }
 
 #mostrar-texto:hover {
