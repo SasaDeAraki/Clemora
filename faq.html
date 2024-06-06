@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clemora</title>
+    <title>Clemora - FAQ</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <link rel="shortcut icon" type="imagex/png" href="./img/clemora-icon.png">
-    <script src="js/resposta-faq.js" type="text/javascript" defer></script>
-
+    <script src="./js/resposta-faq.js" type="text/javascript" defer></script>
 </head>
-
 <body>
     <header>
         <nav>
@@ -21,44 +18,39 @@
             <a href="faq.html">FAQ</a>
         </nav>
     </header>
-    
     <main>
         <img class="logo" src="img/clemora-logo.png" alt="Clemora logo">
         <div class="main-container">
-            <div class="main-background">
-                    
-            </div>
+            <div class="main-background"></div>
             <div class="main-texto">
                 <h1>FAQ</h1>
                 <div class="container-faq">
-                    <div id="faq-1" class="pergunta-faq">
-                        <h3>pergunta 1</h3>
-                        <button id="b-1">v</button>
+                    <div class="pergunta-faq" data-index="1">
+                        <h3>Como configurar o Clemarinho?</h3>
+                        <button id="b-1" data-index="1">v</button>
                     </div>
-                    <div id="resp-1" class="resposta-faq" style="display: none;">
-                        resposta desenvolvida
+                    <div class="resposta-faq" id="resp-1" style="display: none;">
+                        <p>A configuração é muito intuitiva e feita pelo software; basta emparelhar o software e o dispositivo usando o controle remoto e então seguir as instruções de configuração apresentadas na tela.</p>
                     </div>
-                    <div id="faq-2" class="pergunta-faq">
-                        <h3>pergunta 2</h3>
-                        <button id="b-2">v</button>
+                    <div class="pergunta-faq" data-index="2">
+                        <h3>Suporte e assistência</h3>
+                        <button id="b-2" data-index="2">v</button>
                     </div>
-                    <div id="resp-2" class="resposta-faq" style="display: none;">
-                        resposta desenvolvida
+                    <div class="resposta-faq" id="resp-2" style="display: none;">
+                        <p>Caso esteja tendo algum problema com a instalação ou uso do dispositivo, cheque a aba de resolução de problemas do manual, sua solução pode estar presente lá. Se não estiver, mande uma mensagem para o e-mail "suporte@clemora.com" para abrir um ticket de ajuda, nossa equipe de suporte estará pronta para ajudar.</p>
                     </div>
-                    <div id="faq-3" class="pergunta-faq">
-                        <h3>pergunta 3</h3>
-                        <button id="b-3">v</button>
+                    <div class="pergunta-faq" data-index="3">
+                        <h3>Atualizações</h3>
+                        <button id="b-3" data-index="3">v</button>
                     </div>
-                    <div id="resp-3" class="resposta-faq" style="display: none;">
-                        resposta desenvolvida
+                    <div class="resposta-faq" id="resp-3" style="display: none;">
+                        <p>O software do Clemarinho está sempre sendo atualizado para manter o maior desempenho e eficácia possível. As atualizações tendem a manter uma contância trimestral, corrigindo bugs, atualizando a base de dados, e aprimorando a IA responsável pela identificação e coleta de lixo.</p>
                     </div>
                 </div>
             </div>
         </div>
-
     </main>
-    
-    <footer>
+    <footer id="footer-faq">
         <img class="logo-transparente" src="img/clemora-logo-sem-fundo.png" alt="Clemora logo">
         <div class="footer-content">
             <div class="rm">
