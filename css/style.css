@@ -186,9 +186,40 @@ footer {
 }
 
 .texto-oculto {
-    display: none;
     background-color: rgb(211, 211, 211);
     padding: 20px 30px;
     border-radius: 15px;
     margin: 10px 0;
 }
+
+/* FAQ */
+
+.pergunta-faq {
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid #14193e;
+    padding: 30px;
+}
+
+.pergunta-faq:hover {
+    cursor: pointer;
+}
+
+.pergunta-faq button {
+    margin-left: auto;
+    border: none;
+    font-size: large;
+    color: #1E4B6A;
+}
+
+.pergunta-faq button:hover {
+    cursor: pointer;
+}
+
+.resposta-faq {
+    background-color: #c7c7c7;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 0 0 5px 5px;
+}
+
