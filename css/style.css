@@ -47,14 +47,16 @@ footer {
 
 .footer-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.rm {
+.rm {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: 45px;
     align-content: center;
+    flex-direction: column;
 }
 
 .logo-transparente {
@@ -223,6 +225,36 @@ footer {
     border-radius: 0 0 5px 5px;
 }
 
-#footer-faq {
-    margin-top: 124px;
+/* noticias.html */
+
+.container-email {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.email {
+    width: 82%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 2px solid #14193e;
+}
+
+.enviar {
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    background-color: #323968;
+    color: white;
+}
+
+.enviar:hover {
+    transform: scale(1.05);
+    background-color: #14193e;
+    cursor: pointer;
+}
+
+.container-alert {
+    margin: 0 auto;
+    width: 60%;
 }
