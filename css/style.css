@@ -157,6 +157,7 @@ footer {
 .tabela-detritos {
     margin-left: 10px;
     height: 360px;
+    background-color: #fff;
 }
 
 .tabela-detritos, .tabela-detritos th, .tabela-detritos td {
